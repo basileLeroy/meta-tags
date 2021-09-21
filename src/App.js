@@ -1,7 +1,6 @@
-import myLogo from './meta_card.png'
+import myLogo from './meta_card.png';
 
-
-function App() {
+const App = () => {
   return (
       <div className="card position-absolute top-50 start-50 translate-middle" style={{width: 18 + "rem"}}>
           <img src={myLogo} className="card-img-top" alt="my logo" />
