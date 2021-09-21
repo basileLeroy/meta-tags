@@ -8,7 +8,7 @@ function App() {
               <div className="card-body">
                   <h5 className="card-title">Hello Verou</h5>
                   <p className="card-text">A quick introduction to using Meta tags, more precisely Open Graph tags (OG).</p>
-                  <a href="#" className="btn btn-primary">fake button</a>
+                  <a href="/" className="btn btn-primary">fake button</a>
               </div>
       </div>
   );
