@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import image from './meta_card.png'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="card position-absolute top-50 start-50 translate-middle" style={{width: 18 + "rem"}}>
+          <img src={image} className="card-img-top" alt="my image" />
+              <div className="card-body">
+                  <h5 className="card-title">Hello Verou</h5>
+                  <p className="card-text">A quick introduction to using Meta tags, more precisely Open Graph tags (OG).</p>
+                  <a href="#" className="btn btn-primary">fake button</a>
+              </div>
+      </div>
   );
 }
 
